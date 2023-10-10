@@ -1,0 +1,913 @@
+2023-07-11 20:04:48,973 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-11 20:04:49,024 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-11 20:04:49,099 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-11 20:04:49,099 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-11 20:04:49,099 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-11 20:04:49,100 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-11 20:04:49,100 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-11 20:04:49,101 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-11 20:04:49,113 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-11 20:06:35,750 [8] ERROR Quartz.Core.JobRunShell - Job group1.myJob threw an unhandled Exception: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+2023-07-11 20:06:35,763 [9] ERROR Quartz.Core.JobRunShell - Job group1.myJob threw an unhandled Exception: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+2023-07-11 20:06:35,772 [8] ERROR Quartz.Core.ErrorLogger - Job group1.myJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()]
+2023-07-11 20:06:35,772 [9] ERROR Quartz.Core.ErrorLogger - Job group1.myJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()]
+2023-07-11 20:07:03,285 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-11 20:07:03,334 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-11 20:07:03,409 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-11 20:07:03,409 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-11 20:07:03,410 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-11 20:07:03,410 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-11 20:07:03,411 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-11 20:07:03,411 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-11 20:07:03,425 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-11 20:07:16,404 [7] ERROR Quartz.Core.JobRunShell - Job group1.myJob threw an unhandled Exception: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+2023-07-11 20:07:16,407 [8] ERROR Quartz.Core.JobRunShell - Job group1.myJob threw an unhandled Exception: 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+2023-07-11 20:07:16,418 [7] ERROR Quartz.Core.ErrorLogger - Job group1.myJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()]
+2023-07-11 20:07:16,418 [8] ERROR Quartz.Core.ErrorLogger - Job group1.myJob threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 定时任务.Job.MyJob.<Execute>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Quartz.Core.JobRunShell.<Run>d__10.MoveNext()]
+2023-07-11 20:10:02,476 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-11 20:10:02,526 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-11 20:10:02,604 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-11 20:10:02,604 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-11 20:10:02,604 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-11 20:10:02,605 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-11 20:10:02,606 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-11 20:10:02,606 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-11 20:10:02,620 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-11 20:11:39,568 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-11 20:11:39,622 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-11 20:11:39,704 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-11 20:11:39,704 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-11 20:11:39,706 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-11 20:11:39,708 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-11 20:11:39,708 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-11 20:11:39,709 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-11 20:11:39,725 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-11 20:12:49,956 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-11 20:12:50,018 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-11 20:12:50,229 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-11 20:12:50,230 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-11 20:12:50,232 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-11 20:12:50,239 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-11 20:12:50,262 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-11 20:12:50,262 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-11 20:12:50,311 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-11 20:14:48,277 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-11 20:14:48,336 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-11 20:14:48,467 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-11 20:14:48,467 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-11 20:14:48,468 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-11 20:14:48,470 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-11 20:14:48,470 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-11 20:14:48,471 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-11 20:14:48,490 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-11 20:16:28,972 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-11 20:16:29,022 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-11 20:16:29,102 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-11 20:16:29,102 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-11 20:16:29,102 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-11 20:16:29,103 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-11 20:16:29,103 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-11 20:16:29,104 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-11 20:16:29,117 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-11 20:16:29,205 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-11 20:16:31,457 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-11 20:16:42,162 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-11 20:16:42,846 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-11 20:16:49,124 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:54:20,996 [1] INFO  定时任务.WebApiApplication - 应用程序已启动
+2023-07-12 08:54:21,058 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz.NET properties loaded from configuration file 'D:\code\测试代码\定时任务\quartz.config'
+2023-07-12 08:54:21,143 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-12 08:54:21,144 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2023-07-12 08:54:21,144 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2023-07-12 08:54:21,145 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz Scheduler 3.6.3.0 - 'QuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2023-07-12 08:54:21,145 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2023-07-12 08:54:21,146 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2023-07-12 08:54:21,161 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2023-07-12 08:54:21,255 [6] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:54:21,256 [6] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:54:21
+2023-07-12 08:54:21,256 [6] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:54:31,169 [6] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:54:31,169 [6] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:54:31
+2023-07-12 08:54:31,169 [6] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:54:41,171 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:54:41,171 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:54:41
+2023-07-12 08:54:41,171 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:54:51,169 [6] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:54:51,169 [6] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:54:51
+2023-07-12 08:54:51,169 [6] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:55:01,169 [6] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:55:01,169 [6] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:55:01
+2023-07-12 08:55:01,169 [6] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:55:11,169 [6] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:55:11,169 [6] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:55:11
+2023-07-12 08:55:11,169 [6] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:55:21,169 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:55:21,169 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:55:21
+2023-07-12 08:55:21,169 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:55:31,169 [6] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:55:31,169 [6] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:55:31
+2023-07-12 08:55:31,170 [6] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:55:41,178 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:55:41,178 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:55:41
+2023-07-12 08:55:41,178 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:55:51,169 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:55:51,169 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:55:51
+2023-07-12 08:55:51,169 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:56:01,169 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:56:01,169 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:56:01
+2023-07-12 08:56:01,169 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:56:11,169 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:56:11,169 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:56:11
+2023-07-12 08:56:11,169 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:56:21,169 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:56:21,169 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:56:21
+2023-07-12 08:56:21,169 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:56:31,172 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:56:31,172 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:56:31
+2023-07-12 08:56:31,172 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:56:41,169 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:56:41,169 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:56:41
+2023-07-12 08:56:41,169 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:56:51,169 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:56:51,170 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:56:51
+2023-07-12 08:56:51,170 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:57:01,171 [7] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:57:01,171 [7] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:57:01
+2023-07-12 08:57:01,171 [7] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:57:11,169 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:57:11,169 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:57:11
+2023-07-12 08:57:11,169 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:57:21,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:57:21,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:57:21
+2023-07-12 08:57:21,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:57:31,169 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:57:31,169 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:57:31
+2023-07-12 08:57:31,169 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:57:41,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:57:41,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:57:41
+2023-07-12 08:57:41,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:57:51,169 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:57:51,169 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:57:51
+2023-07-12 08:57:51,169 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:58:01,169 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:58:01,169 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:58:01
+2023-07-12 08:58:01,169 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:58:11,172 [8] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:58:11,172 [8] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:58:11
+2023-07-12 08:58:11,172 [8] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:58:21,169 [10] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:58:21,169 [10] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:58:21
+2023-07-12 08:58:21,169 [10] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:58:31,169 [10] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:58:31,169 [10] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:58:31
+2023-07-12 08:58:31,170 [10] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:58:41,169 [15] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:58:41,169 [15] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:58:41
+2023-07-12 08:58:41,169 [15] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:58:51,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:58:51,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:58:51
+2023-07-12 08:58:51,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:59:01,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:59:01,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:59:01
+2023-07-12 08:59:01,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:59:11,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:59:11,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:59:11
+2023-07-12 08:59:11,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:59:21,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:59:21,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:59:21
+2023-07-12 08:59:21,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:59:31,170 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:59:31,170 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:59:31
+2023-07-12 08:59:31,170 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:59:41,174 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:59:41,174 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:59:41
+2023-07-12 08:59:41,174 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 08:59:51,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 08:59:51,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 8:59:51
+2023-07-12 08:59:51,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:00:01,169 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:00:01,169 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:00:01
+2023-07-12 09:00:01,169 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:00:11,216 [13] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:00:11,217 [13] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:00:11
+2023-07-12 09:00:11,217 [13] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:00:21,210 [15] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:00:21,210 [15] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:00:21
+2023-07-12 09:00:21,210 [15] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:00:31,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:00:31,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:00:31
+2023-07-12 09:00:31,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:00:41,170 [15] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:00:41,170 [15] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:00:41
+2023-07-12 09:00:41,170 [15] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:00:51,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:00:51,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:00:51
+2023-07-12 09:00:51,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:01:01,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:01:01,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:01:01
+2023-07-12 09:01:01,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:01:11,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:01:11,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:01:11
+2023-07-12 09:01:11,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:01:21,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:01:21,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:01:21
+2023-07-12 09:01:21,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:01:31,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:01:31,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:01:31
+2023-07-12 09:01:31,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:01:41,169 [15] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:01:41,169 [15] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:01:41
+2023-07-12 09:01:41,169 [15] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:01:51,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:01:51,170 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:01:51
+2023-07-12 09:01:51,170 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:02:01,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:02:01,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:02:01
+2023-07-12 09:02:01,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:02:11,170 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:02:11,170 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:02:11
+2023-07-12 09:02:11,170 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:02:21,169 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:02:21,169 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:02:21
+2023-07-12 09:02:21,169 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:02:31,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:02:31,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:02:31
+2023-07-12 09:02:31,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:02:41,169 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:02:41,169 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:02:41
+2023-07-12 09:02:41,169 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:02:51,171 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:02:51,171 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:02:51
+2023-07-12 09:02:51,171 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:03:01,170 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:03:01,170 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:03:01
+2023-07-12 09:03:01,170 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:03:11,169 [14] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:03:11,169 [14] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:03:11
+2023-07-12 09:03:11,169 [14] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:03:21,170 [16] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:03:21,170 [16] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:03:21
+2023-07-12 09:03:21,170 [16] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:03:31,169 [16] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:03:31,169 [16] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:03:31
+2023-07-12 09:03:31,169 [16] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:03:41,169 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:03:41,169 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:03:41
+2023-07-12 09:03:41,169 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:03:51,169 [16] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:03:51,169 [16] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:03:51
+2023-07-12 09:03:51,169 [16] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:04:01,169 [16] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:04:01,169 [16] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:04:01
+2023-07-12 09:04:01,169 [16] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:04:11,169 [16] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:04:11,169 [16] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:04:11
+2023-07-12 09:04:11,169 [16] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:04:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:04:21,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:04:21
+2023-07-12 09:04:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:04:31,169 [16] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:04:31,169 [16] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:04:31
+2023-07-12 09:04:31,169 [16] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:04:41,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:04:41,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:04:41
+2023-07-12 09:04:41,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:04:51,169 [16] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:04:51,170 [16] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:04:51
+2023-07-12 09:04:51,170 [16] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:05:01,169 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:05:01,169 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:05:01
+2023-07-12 09:05:01,169 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:05:11,175 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:05:11,175 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:05:11
+2023-07-12 09:05:11,175 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:05:21,170 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:05:21,170 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:05:21
+2023-07-12 09:05:21,170 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:05:31,180 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:05:31,180 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:05:31
+2023-07-12 09:05:31,180 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:05:41,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:05:41,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:05:41
+2023-07-12 09:05:41,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:05:51,169 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:05:51,169 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:05:51
+2023-07-12 09:05:51,169 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:06:01,169 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:06:01,169 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:06:01
+2023-07-12 09:06:01,169 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:06:11,169 [17] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:06:11,169 [17] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:06:11
+2023-07-12 09:06:11,169 [17] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:06:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:06:21,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:06:21
+2023-07-12 09:06:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:06:31,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:06:31,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:06:31
+2023-07-12 09:06:31,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:06:41,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:06:41,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:06:41
+2023-07-12 09:06:41,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:06:51,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:06:51,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:06:51
+2023-07-12 09:06:51,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:07:01,170 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:07:01,170 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:07:01
+2023-07-12 09:07:01,170 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:07:11,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:07:11,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:07:11
+2023-07-12 09:07:11,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:07:21,170 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:07:21,170 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:07:21
+2023-07-12 09:07:21,170 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:07:31,176 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:07:31,176 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:07:31
+2023-07-12 09:07:31,176 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:07:41,187 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:07:41,187 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:07:41
+2023-07-12 09:07:41,187 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:07:51,170 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:07:51,170 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:07:51
+2023-07-12 09:07:51,170 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:08:01,171 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:08:01,171 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:08:01
+2023-07-12 09:08:01,171 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:08:11,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:08:11,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:08:11
+2023-07-12 09:08:11,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:08:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:08:21,170 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:08:21
+2023-07-12 09:08:21,170 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:08:31,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:08:31,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:08:31
+2023-07-12 09:08:31,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:08:41,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:08:41,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:08:41
+2023-07-12 09:08:41,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:08:51,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:08:51,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:08:51
+2023-07-12 09:08:51,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:09:01,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:09:01,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:09:01
+2023-07-12 09:09:01,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:09:11,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:09:11,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:09:11
+2023-07-12 09:09:11,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:09:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:09:21,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:09:21
+2023-07-12 09:09:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:09:31,169 [18] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:09:31,169 [18] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:09:31
+2023-07-12 09:09:31,169 [18] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:09:41,172 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:09:41,172 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:09:41
+2023-07-12 09:09:41,172 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:09:51,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:09:51,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:09:51
+2023-07-12 09:09:51,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:10:01,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:10:01,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:10:01
+2023-07-12 09:10:01,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:10:11,247 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:10:11,248 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:10:11
+2023-07-12 09:10:11,248 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:10:21,204 [22] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:10:21,204 [22] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:10:21
+2023-07-12 09:10:21,204 [22] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:10:31,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:10:31,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:10:31
+2023-07-12 09:10:31,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:10:41,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:10:41,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:10:41
+2023-07-12 09:10:41,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:10:51,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:10:51,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:10:51
+2023-07-12 09:10:51,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:11:01,169 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:11:01,169 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:11:01
+2023-07-12 09:11:01,169 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:11:11,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:11:11,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:11:11
+2023-07-12 09:11:11,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:11:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:11:21,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:11:21
+2023-07-12 09:11:21,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:11:31,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:11:31,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:11:31
+2023-07-12 09:11:31,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:11:41,169 [23] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:11:41,169 [23] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:11:41
+2023-07-12 09:11:41,169 [23] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:11:51,172 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:11:51,172 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:11:51
+2023-07-12 09:11:51,172 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:12:01,170 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:12:01,170 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:12:01
+2023-07-12 09:12:01,170 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:12:11,169 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:12:11,169 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:12:11
+2023-07-12 09:12:11,169 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:12:21,169 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:12:21,169 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:12:21
+2023-07-12 09:12:21,169 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:12:31,170 [12] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:12:31,170 [12] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:12:31
+2023-07-12 09:12:31,170 [12] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:12:41,170 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:12:41,170 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:12:41
+2023-07-12 09:12:41,170 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:12:51,169 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:12:51,169 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:12:51
+2023-07-12 09:12:51,169 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:13:01,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:13:01,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:13:01
+2023-07-12 09:13:01,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:13:11,170 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:13:11,171 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:13:11
+2023-07-12 09:13:11,171 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:13:21,170 [23] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:13:21,170 [23] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:13:21
+2023-07-12 09:13:21,170 [23] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:13:31,169 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:13:31,169 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:13:31
+2023-07-12 09:13:31,169 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:13:41,169 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:13:41,169 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:13:41
+2023-07-12 09:13:41,169 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:13:51,221 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:13:51,221 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:13:51
+2023-07-12 09:13:51,221 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:14:01,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:14:01,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:14:01
+2023-07-12 09:14:01,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:14:11,169 [20] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:14:11,169 [20] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:14:11
+2023-07-12 09:14:11,169 [20] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:14:21,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:14:21,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:14:21
+2023-07-12 09:14:21,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:14:31,170 [23] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:14:31,170 [23] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:14:31
+2023-07-12 09:14:31,170 [23] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:14:41,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:14:41,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:14:41
+2023-07-12 09:14:41,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:14:51,169 [23] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:14:51,169 [23] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:14:51
+2023-07-12 09:14:51,170 [23] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:15:01,170 [23] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:15:01,170 [23] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:15:01
+2023-07-12 09:15:01,170 [23] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:15:11,170 [23] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:15:11,170 [23] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:15:11
+2023-07-12 09:15:11,170 [23] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:15:21,170 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:15:21,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:15:21
+2023-07-12 09:15:21,170 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:15:31,170 [23] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:15:31,170 [23] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:15:31
+2023-07-12 09:15:31,170 [23] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:15:41,169 [26] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:15:41,169 [26] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:15:41
+2023-07-12 09:15:41,169 [26] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:15:51,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:15:51,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:15:51
+2023-07-12 09:15:51,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:16:01,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:16:01,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:16:01
+2023-07-12 09:16:01,170 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:16:11,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:16:11,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:16:11
+2023-07-12 09:16:11,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:16:21,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:16:21,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:16:21
+2023-07-12 09:16:21,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:16:31,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:16:31,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:16:31
+2023-07-12 09:16:31,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:16:41,169 [26] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:16:41,169 [26] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:16:41
+2023-07-12 09:16:41,169 [26] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:16:51,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:16:51,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:16:51
+2023-07-12 09:16:51,170 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:17:01,169 [26] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:17:01,169 [26] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:17:01
+2023-07-12 09:17:01,169 [26] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:17:11,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:17:11,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:17:11
+2023-07-12 09:17:11,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:17:21,172 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:17:21,172 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:17:21
+2023-07-12 09:17:21,172 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:17:31,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:17:31,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:17:31
+2023-07-12 09:17:31,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:17:41,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:17:41,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:17:41
+2023-07-12 09:17:41,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:17:51,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:17:51,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:17:51
+2023-07-12 09:17:51,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:18:01,174 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:18:01,174 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:18:01
+2023-07-12 09:18:01,174 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:18:11,170 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:18:11,170 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:18:11
+2023-07-12 09:18:11,170 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:18:21,169 [26] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:18:21,169 [26] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:18:21
+2023-07-12 09:18:21,169 [26] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:18:31,169 [24] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:18:31,169 [24] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:18:31
+2023-07-12 09:18:31,169 [24] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:18:41,169 [26] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:18:41,169 [26] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:18:41
+2023-07-12 09:18:41,169 [26] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:18:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:18:51,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:18:51
+2023-07-12 09:18:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:19:01,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:19:01,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:19:01
+2023-07-12 09:19:01,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:19:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:19:11,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:19:11
+2023-07-12 09:19:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:19:21,169 [26] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:19:21,169 [26] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:19:21
+2023-07-12 09:19:21,169 [26] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:19:31,170 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:19:31,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:19:31
+2023-07-12 09:19:31,171 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:19:41,170 [26] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:19:41,170 [26] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:19:41
+2023-07-12 09:19:41,170 [26] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:19:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:19:51,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:19:51
+2023-07-12 09:19:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:20:01,169 [29] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:20:01,169 [29] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:20:01
+2023-07-12 09:20:01,169 [29] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:20:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:20:11,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:20:11
+2023-07-12 09:20:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:20:21,170 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:20:21,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:20:21
+2023-07-12 09:20:21,170 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:20:31,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:20:31,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:20:31
+2023-07-12 09:20:31,170 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:20:41,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:20:41,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:20:41
+2023-07-12 09:20:41,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:20:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:20:51,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:20:51
+2023-07-12 09:20:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:21:01,170 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:21:01,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:21:01
+2023-07-12 09:21:01,170 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:21:11,266 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:21:11,267 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:21:11
+2023-07-12 09:21:11,267 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:21:21,169 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:21:21,169 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:21:21
+2023-07-12 09:21:21,169 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:21:31,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:21:31,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:21:31
+2023-07-12 09:21:31,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:21:41,170 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:21:41,170 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:21:41
+2023-07-12 09:21:41,170 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:21:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:21:51,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:21:51
+2023-07-12 09:21:51,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:22:01,169 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:22:01,169 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:22:01
+2023-07-12 09:22:01,169 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:22:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:22:11,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:22:11
+2023-07-12 09:22:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:22:21,170 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:22:21,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:22:21
+2023-07-12 09:22:21,170 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:22:31,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:22:31,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:22:31
+2023-07-12 09:22:31,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:22:41,173 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:22:41,173 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:22:41
+2023-07-12 09:22:41,173 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:22:51,170 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:22:51,170 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:22:51
+2023-07-12 09:22:51,170 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:23:01,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:23:01,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:23:01
+2023-07-12 09:23:01,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:23:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:23:11,169 [25] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:23:11
+2023-07-12 09:23:11,169 [25] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:23:21,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:23:21,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:23:21
+2023-07-12 09:23:21,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:23:31,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:23:31,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:23:31
+2023-07-12 09:23:31,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:23:41,170 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:23:41,170 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:23:41
+2023-07-12 09:23:41,170 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:23:51,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:23:51,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:23:51
+2023-07-12 09:23:51,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:24:01,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:24:01,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:24:01
+2023-07-12 09:24:01,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:24:11,170 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:24:11,170 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:24:11
+2023-07-12 09:24:11,170 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:24:21,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:24:21,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:24:21
+2023-07-12 09:24:21,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:24:31,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:24:31,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:24:31
+2023-07-12 09:24:31,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:24:41,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:24:41,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:24:41
+2023-07-12 09:24:41,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:24:51,169 [28] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:24:51,169 [28] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:24:51
+2023-07-12 09:24:51,169 [28] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:25:01,169 [31] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:25:01,169 [31] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:25:01
+2023-07-12 09:25:01,169 [31] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:25:11,170 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:25:11,170 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:25:11
+2023-07-12 09:25:11,170 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:25:21,175 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:25:21,175 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:25:21
+2023-07-12 09:25:21,175 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:25:31,169 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:25:31,169 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:25:31
+2023-07-12 09:25:31,169 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:25:41,174 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:25:41,174 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:25:41
+2023-07-12 09:25:41,174 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:25:51,170 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:25:51,170 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:25:51
+2023-07-12 09:25:51,170 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:26:01,171 [32] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:26:01,171 [32] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:26:01
+2023-07-12 09:26:01,171 [32] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:26:11,169 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:26:11,169 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:26:11
+2023-07-12 09:26:11,169 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:26:21,170 [32] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:26:21,170 [32] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:26:21
+2023-07-12 09:26:21,170 [32] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:26:31,169 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:26:31,169 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:26:31
+2023-07-12 09:26:31,169 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:26:41,169 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:26:41,169 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:26:41
+2023-07-12 09:26:41,169 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:26:51,169 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:26:51,169 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:26:51
+2023-07-12 09:26:51,169 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:27:01,186 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:27:01,186 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:27:01
+2023-07-12 09:27:01,186 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:27:11,170 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:27:11,170 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:27:11
+2023-07-12 09:27:11,170 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:27:21,169 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:27:21,169 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:27:21
+2023-07-12 09:27:21,169 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:27:31,173 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:27:31,173 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:27:31
+2023-07-12 09:27:31,173 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:27:41,170 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:27:41,170 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:27:41
+2023-07-12 09:27:41,170 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:27:51,180 [30] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:27:51,180 [30] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:27:51
+2023-07-12 09:27:51,180 [30] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:28:01,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:28:01,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:28:01
+2023-07-12 09:28:01,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:28:11,169 [31] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:28:11,169 [31] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:28:11
+2023-07-12 09:28:11,169 [31] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:28:21,169 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:28:21,169 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:28:21
+2023-07-12 09:28:21,169 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:28:31,170 [31] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:28:31,170 [31] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:28:31
+2023-07-12 09:28:31,170 [31] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:28:41,211 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:28:41,211 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:28:41
+2023-07-12 09:28:41,211 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:28:51,169 [31] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:28:51,169 [31] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:28:51
+2023-07-12 09:28:51,169 [31] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:29:01,169 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:29:01,169 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:29:01
+2023-07-12 09:29:01,169 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:29:11,169 [31] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:29:11,169 [31] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:29:11
+2023-07-12 09:29:11,169 [31] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:29:21,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:29:21,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:29:21
+2023-07-12 09:29:21,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:29:31,169 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:29:31,169 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:29:31
+2023-07-12 09:29:31,169 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:29:41,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:29:41,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:29:41
+2023-07-12 09:29:41,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:29:51,169 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:29:51,169 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:29:51
+2023-07-12 09:29:51,169 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:30:01,170 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:30:01,170 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:30:01
+2023-07-12 09:30:01,170 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:30:11,169 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:30:11,169 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:30:11
+2023-07-12 09:30:11,169 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:30:21,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:30:21,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:30:21
+2023-07-12 09:30:21,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:30:31,171 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:30:31,171 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:30:31
+2023-07-12 09:30:31,171 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:30:41,175 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:30:41,175 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:30:41
+2023-07-12 09:30:41,175 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:30:51,169 [33] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:30:51,169 [33] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:30:51
+2023-07-12 09:30:51,169 [33] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:31:01,169 [36] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:31:01,170 [36] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:31:01
+2023-07-12 09:31:01,170 [36] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:31:11,170 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:31:11,170 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:31:11
+2023-07-12 09:31:11,170 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:31:21,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:31:21,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:31:21
+2023-07-12 09:31:21,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:31:31,170 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:31:31,170 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:31:31
+2023-07-12 09:31:31,170 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:31:41,169 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:31:41,169 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:31:41
+2023-07-12 09:31:41,169 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:31:51,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:31:51,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:31:51
+2023-07-12 09:31:51,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:32:01,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:32:01,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:32:01
+2023-07-12 09:32:01,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:32:11,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:32:11,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:32:11
+2023-07-12 09:32:11,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:32:21,169 [36] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:32:21,169 [36] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:32:21
+2023-07-12 09:32:21,169 [36] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:32:31,169 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:32:31,169 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:32:31
+2023-07-12 09:32:31,169 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:32:41,191 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:32:41,191 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:32:41
+2023-07-12 09:32:41,191 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:32:51,171 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:32:51,171 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:32:51
+2023-07-12 09:32:51,171 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:33:01,170 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:33:01,170 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:33:01
+2023-07-12 09:33:01,170 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:33:11,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:33:11,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:33:11
+2023-07-12 09:33:11,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:33:21,172 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:33:21,172 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:33:21
+2023-07-12 09:33:21,172 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:33:31,169 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:33:31,169 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:33:31
+2023-07-12 09:33:31,169 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:33:41,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:33:41,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:33:41
+2023-07-12 09:33:41,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:33:51,171 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:33:51,171 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:33:51
+2023-07-12 09:33:51,171 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:34:01,173 [38] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:34:01,173 [38] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:34:01
+2023-07-12 09:34:01,173 [38] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:34:11,169 [34] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:34:11,169 [34] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:34:11
+2023-07-12 09:34:11,169 [34] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:34:21,169 [38] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:34:21,169 [38] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:34:21
+2023-07-12 09:34:21,169 [38] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:34:31,169 [38] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:34:31,169 [38] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:34:31
+2023-07-12 09:34:31,169 [38] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:34:41,169 [37] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:34:41,169 [37] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:34:41
+2023-07-12 09:34:41,169 [37] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:34:51,169 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:34:51,169 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:34:51
+2023-07-12 09:34:51,169 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:35:01,170 [38] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:35:01,170 [38] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:35:01
+2023-07-12 09:35:01,170 [38] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:35:11,169 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:35:11,169 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:35:11
+2023-07-12 09:35:11,169 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:35:21,173 [38] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:35:21,173 [38] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:35:21
+2023-07-12 09:35:21,173 [38] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:35:31,169 [38] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:35:31,169 [38] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:35:31
+2023-07-12 09:35:31,169 [38] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:35:41,169 [39] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:35:41,169 [39] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:35:41
+2023-07-12 09:35:41,169 [39] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:35:51,169 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:35:51,169 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:35:51
+2023-07-12 09:35:51,169 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:36:01,169 [37] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:36:01,169 [37] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:36:01
+2023-07-12 09:36:01,169 [37] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:36:11,170 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:36:11,170 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:36:11
+2023-07-12 09:36:11,170 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:36:21,169 [37] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:36:21,169 [37] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:36:21
+2023-07-12 09:36:21,169 [37] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:36:31,169 [37] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:36:31,169 [37] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:36:31
+2023-07-12 09:36:31,169 [37] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:36:41,170 [40] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:36:41,170 [40] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:36:41
+2023-07-12 09:36:41,170 [40] INFO  定时任务.Job.MyJob - 定时任务执行完毕
+2023-07-12 09:36:51,209 [35] INFO  定时任务.Job.MyJob - 定时任务开始执行
+2023-07-12 09:36:51,209 [35] INFO  定时任务.Job.MyJob - 当前时间:2023/7/12 9:36:51
+2023-07-12 09:36:51,209 [35] INFO  定时任务.Job.MyJob - 定时任务执行完毕

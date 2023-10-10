@@ -1,0 +1,8 @@
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\Dockerfile
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.exe
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.dll
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.deps.json
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.runtimeconfig.json
+D:\code\测试代码\WebApi\obj\Release\net6.0\PubTmp\Out\WebApi.pdb
